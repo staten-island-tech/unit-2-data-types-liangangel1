@@ -26,12 +26,19 @@
 
 bill = int(input ("money spent on food"))
 
+<<<<<<< HEAD
 tip = 
 if tip > 1:
     print('tip recommended')
 elif tip == 5:
+=======
+tip = int(input("how much tips"))
+if tip > 5:
+    print('Thanks')
+elif tip== 5:
+>>>>>>> f5ceef61d9b04c2b0d221d18e22677898f9f0580
     print('perfect')
 else:
-    print('come back soon')
+    print('whats wrong')
 
 print(bill+tip)
