@@ -12,7 +12,7 @@
 
 #print(bill+tip)
 
-#---------------------------------------------------------------
+#------------------------------------------------- odd even
 #x = (int(input ("number")))
 
 #number = x
@@ -21,24 +21,25 @@
 #else:
 #    print('even')
 
-#---------------------------------------------------------------
+#---------------------- Accept service quality and translates to tip %
 
 
-bill = int(input ("money spent on food"))
+""" bill =(int(input ("money spent on food")))
 
-<<<<<<< HEAD
-tip = 
-if tip > 1:
-    print('tip recommended')
-elif tip == 5:
-=======
-tip = int(input("how much tips"))
-if tip > 5:
-    print('Thanks')
-elif tip== 5:
->>>>>>> f5ceef61d9b04c2b0d221d18e22677898f9f0580
-    print('perfect')
+
+
+tip = input ("how was service")
+if tip == "great":
+    print("your tips is 25%")
+elif tip == "good":
+    print("your tips is 20%")
+elif tip =="okay":
+    print ("your tips is 15%")
 else:
-    print('whats wrong')
+    print("no tips") """
 
-print(bill+tip)
+values = [(int(input ("give me a #")))]
+
+
+for i in values:
+    print(x%i)
