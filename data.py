@@ -38,8 +38,36 @@ elif tip =="okay":
 else:
     print("no tips") """
 
-values = [(int(input ("give me a #")))]
+#---------------------- factors
+
+""" values = (int(input ("give me a #")))
+
+for i in range (1, values+1):
+ if values%i == 0:
+  print(i) """
 
 
-for i in values:
-    print(x%i)
+
+value1=int (input("give #"))
+value2=int(input ("give another #"))
+
+for i in range (1,value1+1):
+        if value1%i==value2%i:
+                  print (i)
+    #if value1%i==0:
+        #print (i)
+
+for ii in range (1,value2+1):
+    if value1%i==value2%ii:
+               print (ii)
+
+    if value1%i>=value2%ii:
+    
+    #if value2%ii==0:
+       # print (ii)
+
+
+
+
+
+
