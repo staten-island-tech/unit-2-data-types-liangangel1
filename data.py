@@ -44,18 +44,27 @@ else:
 
 for i in range (1, values+1):
  if values%i == 0:
-  print(i) """
-
+  print(i) 
+   """
+    
+#---------------------- gcf
 value1=int (input("give #"))
 value2=int(input ("give another #"))
 
 
 for i in range (1,value1+1):
-        if value1%i==value2%i:
-                  print (i)
-    #if value1%i==0:
-        #print (i)
+        if value1%i== 0 and value2%i==0:
+         factors = [i]
+else:
+        factors.append 
+print (factors [-1])
 
-""" for ii in range (1,value2+1):
+
+
+    #if value1%i==0:
+        #print (i) 
+
+"""  for ii in range (1,value2+1):
     if value1%i==value2%ii:
-               print (ii) """
+               print (ii) 
+ """
