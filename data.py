@@ -59,12 +59,3 @@ else:
         factors.append 
 print (factors [-1])
 
-
-
-    #if value1%i==0:
-        #print (i) 
-
-"""  for ii in range (1,value2+1):
-    if value1%i==value2%ii:
-               print (ii) 
- """
